@@ -1,0 +1,108 @@
+[
+  {
+    "ContainingType": "CRUDOPERATIONAPIYOUTUBE1.Controllers.AuthenticateController",
+    "Method": "Login",
+    "RelativePath": "api/Authenticate/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "CRUDOPERATIONAPIYOUTUBE1.Controllers.AuthenticateController\u002BLoginModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CRUDOPERATIONAPIYOUTUBE1.Controllers.AuthenticateController",
+    "Method": "Register",
+    "RelativePath": "api/Authenticate/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "CRUDOPERATIONAPIYOUTUBE1.Controllers.AuthenticateController\u002BRegisterModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CRUDOPERATIONAPIYOUTUBE1.Controllers.StudentController",
+    "Method": "CreateStudent",
+    "RelativePath": "api/Student/CreateStudent",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CRUDOPERATIONAPIYOUTUBE1.Models.CreateStudent",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CRUDOPERATIONAPIYOUTUBE1.Controllers.StudentController",
+    "Method": "DeleteStudent",
+    "RelativePath": "api/Student/DeleteStudent/{ID}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ID",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CRUDOPERATIONAPIYOUTUBE1.Controllers.StudentController",
+    "Method": "GetStudent",
+    "RelativePath": "api/Student/GetStudent/{ID}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ID",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CRUDOPERATIONAPIYOUTUBE1.Controllers.StudentController",
+    "Method": "SelectStudents",
+    "RelativePath": "api/Student/SelectStudents",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CRUDOPERATIONAPIYOUTUBE1.Controllers.StudentController",
+    "Method": "UpdateStudents",
+    "RelativePath": "api/Student/UpdateStudent",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CRUDOPERATIONAPIYOUTUBE1.Models.CreateStudent",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
